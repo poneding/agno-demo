@@ -9,7 +9,7 @@ from agno.agent import Agent, RunEvent, RunOutput, RunOutputEvent
 from agno.tools.hackernews import HackerNewsTools
 from agno.utils.pprint import pprint_run_response
 
-from llm.openai_like import model
+from llm.llm import model
 
 agent = Agent(
     model=model,

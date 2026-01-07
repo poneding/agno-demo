@@ -1,1 +1,5 @@
-from llm import lm_studio
+from .llm import model
+
+__all__ = [
+    "model",
+]
